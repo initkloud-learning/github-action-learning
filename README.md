@@ -17,6 +17,7 @@ To create a Github Action, you need to create a `.yml` file in the `.github/work
 ## Example of a Github Action
 
 ```yaml
+name: Example Action Workflow
 on: [push]
 
 jobs:
