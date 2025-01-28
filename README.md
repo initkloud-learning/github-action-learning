@@ -35,5 +35,3 @@ jobs:
         - name: Run tests
             run: npm test
 ```
-
-## Topics Covered
