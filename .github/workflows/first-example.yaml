@@ -22,5 +22,5 @@ jobs:
             - name: Read readme.md file
               run: cat README.md
 
-            - name: Generate ASCII Art
-              run: cowsay -f dragon "Run for cover, I am a Dragon.. RAWR" > gragon.txt
+            # - name: Generate ASCII Art
+            #   run: cowsay -f dragon "Run for cover, I am a Dragon.. RAWR" > gragon.txt
