@@ -16,5 +16,8 @@ jobs:
             - name: List all the files in the repository
               run: ls -R
 
+            - name: Checkout repository
+              uses: actions/checkout@v2
+
             - name: Read readme.md file
               run: cat README.md
