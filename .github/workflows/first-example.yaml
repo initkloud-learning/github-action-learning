@@ -14,10 +14,13 @@ jobs:
               run: echo "Hello, World!"
 
             - name: Checkout repository
-              uses: actions/checkout@v2
+              uses: actions/checkout@v4
 
             - name: List all the files in the repository
               run: ls -R
 
             - name: Read readme.md file
               run: cat README.md
+
+            - name: Generate ASCII Art
+              run: cowsay -f dragon "Run for cover, I am a Dragon.. RAWR" > gragon.txt
