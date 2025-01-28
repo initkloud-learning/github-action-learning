@@ -12,3 +12,9 @@ jobs:
         steps:
             - name: Say Hello
               run: echo "Hello, World!"
+
+            - name: List all the files in the repository
+              run: ls -R
+
+            - name: Read readme.md file
+              run: cat README.md
